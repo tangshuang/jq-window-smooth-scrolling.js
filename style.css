@@ -1,0 +1,45 @@
+/* CSS Document */
+body{
+	background-image:url(text.txt);
+	background-attachment:fixed;
+}
+div#site-scroll{
+	clear:both;
+	width:30px;
+	height:85px;
+	position:fixed;
+	_position:absolute;
+	/* _top:expression(documentElement.scrollTop + documentElement.clientHeight - this.offsetHeight - 30); */
+	right:10px;
+	z-index:99; 
+}
+div#site-scroll{
+	display:inline;
+}
+a#to-top{
+	background:url(images/huadong.png) no-repeat;
+	text-indent:-9999px;
+	width:30px;
+	height:25px;
+	display:block;
+	outline:none;
+}
+a#to-comment{
+	background:url(images/huadong.png) no-repeat;
+	background-position:0 -25px;
+	text-indent:-9999px;
+	width:30px;
+	height:35px;
+	display:block;
+	outline:none;
+}
+a#to-bottom{
+	background:url(images/huadong.png) no-repeat;
+	background-position:left bottom;
+	text-indent:-9999px;
+	width:30px;
+	height:25px;
+	display:block;
+	outline:none;
+}
+
